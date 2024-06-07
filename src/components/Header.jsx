@@ -1,19 +1,10 @@
-// src/components/NavBar.js
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 
-const NavBar = () => {
+const Header = () => {
   return (
-    <Navbar
-      bg="dark"
-      variant="dark"
-      expand="lg"
-      sticky="top"
-      className="shadow-sm"
-    >
-      <Navbar.Brand href="#home" className="ms-2">
-        Portfolio
-      </Navbar.Brand>
+    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+      <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
@@ -26,4 +17,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Header;

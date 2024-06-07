@@ -1,16 +1,6 @@
+/* src/App.css */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,15 +14,68 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#about,
+#projects,
+#contact {
+  padding: 4rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.form-label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form-control {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
