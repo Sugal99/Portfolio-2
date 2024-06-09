@@ -1,3 +1,4 @@
+/* src/App.css */
 .App {
   text-align: center;
 }
@@ -91,4 +92,14 @@ p {
 
 .home-section p.lead {
   font-size: 1.25rem;
+}
+
+/* Add this CSS to your stylesheet or component */
+.header-image {
+  border-radius: 10px; /* Rounded corners for the header image */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.typed-text {
+  margin-top: 20px; /* Add some space between the header image and typed text */
 }

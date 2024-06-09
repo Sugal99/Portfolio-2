@@ -1,3 +1,4 @@
+// src/components/Projects.js
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import SemesterProjectImg from "../assets/images/SemesterProjectImg.png";
@@ -6,14 +7,14 @@ import ProjectExam2Img from "../assets/images/ProjectExam2Img.png";
 
 const Projects = () => {
   return (
-    <Container id="projects" className="my-5">
+    <Container id="projects" className="my-5 text-center">
       <Row>
         <Col>
-          <h2>Projects</h2>
+          <h2 className="text-center mb-4">Projects</h2>
         </Col>
       </Row>
       <Row>
-        <Col md={4} className="d-flex">
+        <Col xs={12} md={6} lg={4} className="d-flex">
           <Card className="mb-4 w-100">
             <Card.Img
               variant="top"
@@ -38,7 +39,7 @@ const Projects = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4} className="d-flex">
+        <Col xs={12} md={6} lg={4} className="d-flex">
           <Card className="mb-4 w-100">
             <Card.Img
               variant="top"
@@ -63,7 +64,7 @@ const Projects = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4} className="d-flex">
+        <Col xs={12} md={6} lg={4} className="d-flex">
           <Card className="mb-4 w-100">
             <Card.Img
               variant="top"

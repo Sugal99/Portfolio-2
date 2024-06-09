@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./components/Header";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -11,9 +11,9 @@ import { Container } from "react-bootstrap";
 function App() {
   return (
     <Container fluid>
-      <Home />
+      <Header />
 
-      <NavBar />
+      <Home />
       <Projects />
       <Footer />
     </Container>
