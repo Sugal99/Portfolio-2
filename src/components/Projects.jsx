@@ -6,7 +6,7 @@ import ProjectExam2Img from "../assets/images/ProjectExam2Img.png";
 
 const Projects = () => {
   return (
-    <Container id="projects" className="my-5 text-center">
+    <Container id="projects" className="my-5 py-5 text-center">
       <Row>
         <Col>
           <h2 className="text-center mb-4">Projects</h2>
@@ -14,7 +14,7 @@ const Projects = () => {
       </Row>
       <Row>
         <Col xs={12} md={6} lg={4} className="d-flex">
-          <Card className="mb-4 w-100">
+          <Card className="mb-4 w-100 ">
             <Card.Img
               variant="top"
               src={SemesterProjectImg}
@@ -22,7 +22,7 @@ const Projects = () => {
             />
             <Card.Body className="d-flex flex-column">
               <Card.Title>SemesterProject2-AuctionBid</Card.Title>
-              <Card.Text className="flex-grow-1">
+              <Card.Text className="flex-grow-1 text-muted">
                 This is an auction website where users can add items to be bid
                 on and bid on items other users have put up for auction. As the
                 title suggests, this was a project done at the end of our
@@ -34,6 +34,9 @@ const Projects = () => {
                 target="_blank"
               >
                 View on GitHub
+              </Button>
+              <Button variant="outline-secondary" href="#" className="mt-2">
+                Live Sites
               </Button>
             </Card.Body>
           </Card>
@@ -47,7 +50,7 @@ const Projects = () => {
             />
             <Card.Body className="d-flex flex-column">
               <Card.Title>JavaScriptCa-eCom</Card.Title>
-              <Card.Text className="flex-grow-1">
+              <Card.Text className="flex-grow-1 text-muted">
                 This is an eCom website where users can view and add all kinds
                 of items to a cart for checkout, either by searching or
                 navigating through them. As the title suggests, this project was
@@ -55,10 +58,13 @@ const Projects = () => {
               </Card.Text>
               <Button
                 variant="primary"
-                href="https://github.com/username/project2"
+                href="https://github.com/Sugal99/react-ca-app-master"
                 target="_blank"
               >
                 View on GitHub
+              </Button>
+              <Button variant="outline-secondary" href="#" className="mt-2">
+                Live Sites
               </Button>
             </Card.Body>
           </Card>
@@ -72,17 +78,21 @@ const Projects = () => {
             />
             <Card.Body className="d-flex flex-column">
               <Card.Title>Project Exam 2-FinalExam</Card.Title>
-              <Card.Text className="flex-grow-1">
+              <Card.Text className="flex-grow-1 text-muted">
                 This is a booking site called Holidaze, where you can book all
                 kinds of venues for a holiday. As the title suggests, this was
                 my final exam.
               </Card.Text>
               <Button
                 variant="primary"
-                href="https://github.com/username/project3"
+                href="https://github.com/Sugal99/Final-Exam"
                 target="_blank"
               >
                 View on GitHub
+              </Button>
+
+              <Button variant="outline-secondary" href="#" className="mt-2">
+                Live Sites
               </Button>
             </Card.Body>
           </Card>
