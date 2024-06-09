@@ -18,7 +18,7 @@ const Home = () => {
       <Row className="justify-content-center align-items-center position-absolute w-100 h-100 top-0 start-0">
         <Col xs={10} sm={8} md={6} lg={4} xl={3}>
           <div className="text-white">
-            <h1 className="display-4 typed-text">
+            <h1 className="display-4 typed-text" style={{ color: "black" }}>
               <TypedText />
             </h1>
             <Button
