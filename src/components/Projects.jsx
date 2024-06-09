@@ -18,7 +18,7 @@ const Projects = () => {
             <Card.Img
               variant="top"
               src={SemesterProjectImg}
-              style={{ height: "200px", objectFit: "cover" }}
+              style={{ height: "167px", objectFit: "cover" }}
             />
             <Card.Body className="d-flex flex-column">
               <Card.Title>SemesterProject2-AuctionBid</Card.Title>
@@ -43,7 +43,7 @@ const Projects = () => {
             <Card.Img
               variant="top"
               src={JavaScriptCaImg}
-              style={{ height: "200px", objectFit: "cover" }}
+              style={{ height: "167px", objectFit: "cover" }}
             />
             <Card.Body className="d-flex flex-column">
               <Card.Title>JavaScriptCa-eCom</Card.Title>
@@ -68,7 +68,7 @@ const Projects = () => {
             <Card.Img
               variant="top"
               src={ProjectExam2Img}
-              style={{ height: "200px", objectFit: "cover" }}
+              style={{ height: "167px", objectFit: "cover" }}
             />
             <Card.Body className="d-flex flex-column">
               <Card.Title>Project Exam 2-FinalExam</Card.Title>
