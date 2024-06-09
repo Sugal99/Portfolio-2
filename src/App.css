@@ -45,41 +45,6 @@ footer {
   margin-right: 1rem;
 }
 
-.about-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  color: #6c757d;
-}
-
-.form-label {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-}
-
-.form-control {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-}
-
-.btn {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-}
-
 .home-section {
   background-color: #f8f9fa;
   padding: 60px 0;

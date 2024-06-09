@@ -10,13 +10,13 @@ import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <Container fluid>
+    <div>
       <Header />
 
       <Home />
       <Projects />
       <Footer />
-    </Container>
+    </div>
   );
 }
 

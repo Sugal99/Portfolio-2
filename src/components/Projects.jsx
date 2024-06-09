@@ -1,4 +1,3 @@
-// src/components/Projects.js
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import SemesterProjectImg from "../assets/images/SemesterProjectImg.png";

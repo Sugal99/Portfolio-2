@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import HeaderImg from "../assets/images/HeaderImage.gif";
-import TypedText from "./TypedText"; // Import TypedText component
+import TypedText from "./TypedText";
 
 const Home = () => {
   return (
