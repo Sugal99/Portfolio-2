@@ -35,8 +35,12 @@ const Projects = () => {
               >
                 View on GitHub
               </Button>
-              <Button variant="outline-secondary" href="#" className="mt-2">
-                Live Sites
+              <Button
+                variant="outline-secondary"
+                href="https://fluffy-lolly-cb9973.netlify.app/login.html"
+                className="mt-2"
+              >
+                Live site
               </Button>
             </Card.Body>
           </Card>
@@ -63,8 +67,12 @@ const Projects = () => {
               >
                 View on GitHub
               </Button>
-              <Button variant="outline-secondary" href="#" className="mt-2">
-                Live Sites
+              <Button
+                variant="outline-secondary"
+                href="https://comforting-marshmallow-c6020c.netlify.app/"
+                className="mt-2"
+              >
+                Live site
               </Button>
             </Card.Body>
           </Card>
@@ -91,8 +99,12 @@ const Projects = () => {
                 View on GitHub
               </Button>
 
-              <Button variant="outline-secondary" href="#" className="mt-2">
-                Live Sites
+              <Button
+                variant="outline-secondary"
+                href="https://master--gregarious-lollipop-0b0df9.netlify.app/"
+                className="mt-2"
+              >
+                Live site
               </Button>
             </Card.Body>
           </Card>
