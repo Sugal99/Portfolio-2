@@ -85,7 +85,7 @@ const Projects = () => {
               style={{ height: "167px", objectFit: "cover" }}
             />
             <Card.Body className="d-flex flex-column">
-              <Card.Title>Project Exam 2-FinalExam</Card.Title>
+              <Card.Title>Project Exam 2-Holidaze</Card.Title>
               <Card.Text className="flex-grow-1 text-muted">
                 This is a booking site called Holidaze, where you can book all
                 kinds of venues for a holiday. As the title suggests, this was
